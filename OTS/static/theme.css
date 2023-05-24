@@ -1,0 +1,55 @@
+.top
+{
+    background-color: aquamarine;
+    border: 10px solid navy;
+    border-top-left-radius: 85px ;
+    border-bottom-right-radius: 100px ;
+    color: navy;
+}
+.content
+{ 
+    padding: 10px;
+    
+    font-size: 25px;
+}
+.top div.sitename
+{
+    font-size: large;
+    text-align: center;
+    height: 35px; 
+}
+table
+{
+  width: 90%;
+  margin-left: 60px;
+  
+}
+table tr:nth-child(odd)
+{
+    background-color:#F64C72 ;
+    color: white;
+    height: 30px;
+}
+table tr:nth-child(even)
+{
+    background-color:aquamarine;
+    height: 30px;
+}
+table tr:first-child
+{
+    background-color: navy;
+}
+table td{
+    text-align: center;
+}
+span.special
+{
+    color: navy;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+}
+ 
+
+

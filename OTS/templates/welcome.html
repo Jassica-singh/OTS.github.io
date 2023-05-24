@@ -1,0 +1,24 @@
+{% extends 'main.html' %}
+
+{% block title%} Welcome to Online Testing System {%endblock title%}
+{% block top%}
+
+<a href="{% url 'OTS:registrationForm' %}"><button style="background-color: #F64C72;"><h3>SignUp</h3></button></a>
+<a href="{% url 'OTS:login' %}"><button style="background-color: #F64C72;"><h3>Login</h3></button></a>
+{%endblock %}
+{% block content %}
+<style>
+    body {
+ background-image: url("http://1.bp.blogspot.com/-TIAz2qE_fEE/Ta-mjP4RQ6I/AAAAAAAAACU/4QwiRFTqkNs/s1600/animated+powerpoint+backgrounds.jpg");
+}
+</style>
+<style>
+    h2{
+        color: #F64C72;;
+        font-size: 30px;
+        text-align: center;
+
+    }
+</style>
+<h2>Welcome to Online Testing System</h2>
+{% endblock %}

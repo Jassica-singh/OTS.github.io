@@ -1,0 +1,41 @@
+form{
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    display: table;
+    width: 70%;
+    border: 5px solid navy ;
+    text-align: center;
+    margin-top: 50px;
+
+}
+input{
+    display:block;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 30px;
+    font-size: 22px;
+    
+}
+.question
+{
+    color:navy;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+.options input
+{
+    display:inline;
+    width: fit-content;
+    height: 10px;
+}
+.all-forms
+{
+    margin-left: 270px;
+}
+.q
+{
+    text-align: left;
+    margin-left: 182px;
+}
